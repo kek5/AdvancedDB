@@ -8,8 +8,9 @@ import javax.persistence.Table;
 import java.util.Date;
 
 @Entity
-@Table(name = "medical_record", schema = "default@hbase_pu")
+@Table(name = "medical_records", schema = "default@hbase_pu")
 public class MedicalRecord {
+    public MedicalRecord(){}
 
     @Id
     @Column(name="id")
