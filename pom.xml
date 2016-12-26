@@ -10,11 +10,17 @@
 
 
     <dependencies>
-        <!--<dependency>-->
-            <!--<groupId>com.lits.kundera</groupId>-->
-            <!--<artifactId>testing</artifactId>-->
-            <!--<version>1.0-SNAPSHOT</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.fluttercode.datafactory</groupId>
+            <artifactId>datafactory</artifactId>
+            <version>0.8</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.lits.kundera</groupId>
+            <artifactId>testing</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>com.impetus.kundera.client</groupId>
             <artifactId>kundera-hbase-v2</artifactId>
@@ -27,8 +33,8 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                 </configuration>
             </plugin>
             <plugin>
